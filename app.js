@@ -3,7 +3,7 @@ let amigos = [];
 
 //Funcion para agregar un amigo al array 
 function agregarAmigo () {
-    const imputAmigo = document.getElementById("amigo");
+    const imputAmigo = document.getElementById("amigos");
     const nombreAmigo = imputAmigo.value.trim();
 
     if (nombreAmigo === "") {
